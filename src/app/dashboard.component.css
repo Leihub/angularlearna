@@ -1,0 +1,21 @@
+h3{
+  font-size: 1em;
+  font-weight: normal;
+  width: 180px;
+  text-align: center;
+}
+.grid .grid-pad{
+  display: flex;
+}
+.grid .grid-pad a{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #607D8B;
+}
+.module,h4{
+  display: inline-block;
+}
+.module{
+  width: 80px;
+  height: 40px;
+}

@@ -1,0 +1,52 @@
+h1 {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #999;
+}
+nav a{
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #999;
+  padding: 10px;
+}
+nav a:active,nav a:hover{
+  color: #039be5
+}
+
+.HEROES {
+  list-style: none;
+}
+
+.HEROES li {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #EEE;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.HEROES li .selected :hover {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+
+.badge {
+  background: #607D8B;
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px 0 0 4px;
+  margin-right: 10px;
+}
+
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
